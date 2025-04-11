@@ -17,6 +17,7 @@ public class MyFirstCalculator {
         System.out.println("The substraction is "+ substraction(number1, number2));
         System.out.println("The multiplication is "+ multiply(number1, number2));
         System.out.println("The division is "+ divide(number1, number2));
+        System.out.println();
 
     }
     public static int addition(int a, int b){

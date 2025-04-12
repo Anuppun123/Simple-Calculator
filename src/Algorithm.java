@@ -1,5 +1,5 @@
 public class Algorithm {
-    public static int addition(int a, int b){
+    public int addition(int a, int b){
         int sum = a + b;
          return sum;
      }

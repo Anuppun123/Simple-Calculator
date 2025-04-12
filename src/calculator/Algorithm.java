@@ -1,5 +1,6 @@
+package calculator;
 public class Algorithm {
-    public int addition(int a, int b){
+    public static int addition(int a, int b){
         int sum = a + b;
          return sum;
      }

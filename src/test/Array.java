@@ -12,7 +12,7 @@ public class Array {
         names[3] = "Nabin";
         names[4] = "Sam";
 
-        for(String i:names){
+        for (String i : names) {
             System.out.println(i);
         }
     }

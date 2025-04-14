@@ -1,6 +1,6 @@
 package oops.inheritance;
 
-public class Car {
+public class Car extends Vehicle {
     private String modelName = "Mustang";  //attribute
     public static void main(String[] args) {
 
@@ -10,7 +10,8 @@ public class Car {
 
         Vehicle obj1 = new Vehicle();
 
-        obj1.honk();
+        // obj1.honk();
+        myCar.honk();
         
     }
 }

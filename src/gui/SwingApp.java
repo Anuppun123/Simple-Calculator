@@ -3,6 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JPasswordField;
@@ -46,6 +47,7 @@ public class SwingApp {
         JPasswordField passwordarea = new JPasswordField();
         passwordarea.setBounds(200,150,300,30);
         frame.add(passwordarea);
+         
 
         JLabel gender = new JLabel("Gender :");
         gender.setBounds(50,200,100,30);
@@ -56,6 +58,12 @@ public class SwingApp {
         JRadioButton genderarea1 = new JRadioButton("Female");
         genderarea1.setBounds(300, 200, 100, 30);
         frame.add(genderarea1);
+
+        //Group the radio buttons so only one can be selected at a time
+        ButtonGroup group = new ButtonGroup();
+        group.add(genderarea);
+        group.add(genderarea1);
+
 
         JLabel city = new JLabel("City :");
         city.setBounds(50,250,100,30);

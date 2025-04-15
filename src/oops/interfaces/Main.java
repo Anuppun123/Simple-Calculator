@@ -16,7 +16,6 @@ public class Main implements Animal {
         System.out.println("Singing");
     }
     public void run(){
-        System.out.println("Running");
     }
 
 

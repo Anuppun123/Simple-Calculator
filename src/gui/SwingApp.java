@@ -20,7 +20,7 @@ public class SwingApp {
         //close on exit
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
-        frame.setVisible(true);
+         frame.setVisible(true);
         
 
         JLabel RegisterHere = new JLabel("Register Here");
